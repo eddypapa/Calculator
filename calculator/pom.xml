@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>hu.uni.miskolc</groupId>
+  <artifactId>calculator</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Calculator</name>
+  <description>blabla</description>
+  <modules>
+  	<module>calculator-api</module>
+  	<module>calculator-impl</module>
+  	<module>calculator-demo</module>
+  </modules>
+  <distributionManagement>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://safranek.iit.uni-miskolc.hu:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
+</project>
